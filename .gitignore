@@ -1,0 +1,69 @@
+# ── Build output ─────────────────────────────────────────────────────────────
+build/
+out/
+bin/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.dylib
+
+# ── CMake generated ───────────────────────────────────────────────────────────
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+CTestTestfile.cmake
+_deps/
+install_manifest.txt
+
+# ── Visual Studio ─────────────────────────────────────────────────────────────
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.psess
+*.vsp
+*.vspx
+ipch/
+x64/
+x86/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# ── vcpkg (users manage their own) ───────────────────────────────────────────
+vcpkg_installed/
+.vcpkg/
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs & temp ───────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ── PowerShell ────────────────────────────────────────────────────────────────
+# Keep build.ps1 but ignore any generated ones
+*.ps1.bak
